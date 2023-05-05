@@ -1,0 +1,27 @@
+
+
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.cpp
+*.h
+
+/MelissaUpdater/
+
+Data/
+
+
+mdEmail.dll
+mdEmail.dll.hash
+libmdEmail.so
+libmdEmail.so.hash
+
+

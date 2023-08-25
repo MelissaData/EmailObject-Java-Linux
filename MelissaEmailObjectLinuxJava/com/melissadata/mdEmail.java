@@ -390,6 +390,9 @@ public final static class MailboxLookupMode {
 		return mdEmailJNI.GetResults(I);
 	}
 
+	public String GetResultCodeDescription(String resultCode) {
+		return mdEmailJNI.GetResultCodeDescription(I,resultCode,0);
+	}
 	public String GetResultCodeDescription(String resultCode, mdEmail.ResultCdDescOpt opt) {
 		return mdEmailJNI.GetResultCodeDescription(I,resultCode,opt.toValue());
 	}

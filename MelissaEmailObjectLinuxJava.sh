@@ -44,7 +44,7 @@ done
 
 
 # ######################### Config ###########################
-RELEASE_VERSION='2023.10'
+RELEASE_VERSION='2023.11'
 ProductName="DQ_EMAIL_DATA"
 
 # Uses the location of the .sh file 

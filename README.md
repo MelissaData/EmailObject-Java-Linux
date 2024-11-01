@@ -24,7 +24,7 @@ And return
 ## Tested Environments
 
 - Linux 64-bit Java 19.0.2, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 
 ## Required Files and Programs
 
@@ -97,8 +97,8 @@ If you see the version number then you have installed Java and set up your envir
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/EmailObject-Java-Linux
-$ cd EmailObject-Java-Linux
+git clone https://github.com/MelissaData/EmailObject-Java-Linux
+cd EmailObject-Java-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -156,26 +156,26 @@ As an indicator, the filename will change colors once it becomes an executable.
 
 - Interactive 
 
-	The script will prompt the user for an email address, then use the provided email to test Email Object. For example:
-	```
-	$ ./MelissaEmailObjectLinuxJava.sh
-	```
-    For quiet mode:
-    ```
-    $ ./MelissaEmailObjectLinuxJava.sh -quiet
-    ```
+  The script will prompt the user for an email address, then use the provided email to test Email Object. For example:
+  ```
+  ./MelissaEmailObjectLinuxJava.sh
+  ```
+  For quiet mode:
+  ```
+  ./MelissaEmailObjectLinuxJava.sh -quiet
+  ```
 - Command Line 
 
-	You can pass an email in ```--email``` parameter and a license string in ```--license``` parameter to test Email Object. For example:
-	```
-    $ ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" 
-    $ ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --license "<your_license_string>"
-    ```
-	For quiet mode:
-    ```
-    $ ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --quiet
-    $ ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --license "<your_license_string>" --quiet
-    ```
+  You can pass an email in ```--email``` parameter and a license string in ```--license``` parameter to test Email Object. For example:
+  ```
+  ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" 
+  ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --license "<your_license_string>"
+  ```
+  For quiet mode:
+  ```
+  ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --quiet
+  ./MelissaEmailObjectLinuxJava.sh --email "info@melissa.com" --license "<your_license_string>" --quiet
+  ```
 This is the expected output from a successful setup for interactive mode:
 
 

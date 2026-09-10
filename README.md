@@ -5,7 +5,7 @@ This code showcases the Melissa Email Object using Java.
 
 Please feel free to copy or embed this code to your own project. Happy coding!
 
-For the latest Melissa Email Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/email-object/
+To view the latest Melissa Email Object release notes or to subscribe to product notifications, please visit: https://releasenotes.melissa.com/on-premise-api/email-object/
 
 For further details, please visit: https://docs.melissa.com/on-premise-api/email-object/email-object-quickstart.html
 
